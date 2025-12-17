@@ -86,8 +86,10 @@ async def startup_event():
         embedding_manager.load_index(index_path=index_path, metadata_path=metadata_path)
         print("✓ Loaded FAISS index successfully")
     else:
-        print("Warning: FAISS index not found. Run embeddings.py first.")
-        return
+        print("⚠️ FAISS index not found. API will start but /recommend will be unavailable.")
+        embedding_manager = None
+        recommendation_engine = None
+
     
     # Initialize recommendation engine with LLM disabled by default (saves memory)
     use_llm = os.getenv("USE_LLM_RERANKING", "false").lower() == "true"
