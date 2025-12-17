@@ -1,0 +1,1811 @@
+[
+  {
+    "name": "Java Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/java-programming/",
+    "description": "Advanced Java programming assessment covering OOP, data structures, and algorithms",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Python Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/python-programming/",
+    "description": "Comprehensive Python assessment including libraries, frameworks, and best practices",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "JavaScript Development",
+    "url": "https://www.shl.com/solutions/products/product-catalog/javascript-development/",
+    "description": "Modern JavaScript including ES6+, async programming, and frameworks",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "C++ Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/c++-programming/",
+    "description": "C++ assessment covering memory management, STL, and advanced concepts",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "SQL Database Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/sql-database-skills/",
+    "description": "SQL querying, database design, optimization, and transaction management",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "React Development",
+    "url": "https://www.shl.com/solutions/products/product-catalog/react-development/",
+    "description": "React.js assessment including hooks, state management, and component design",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Node.js Backend",
+    "url": "https://www.shl.com/solutions/products/product-catalog/nodejs-backend/",
+    "description": "Node.js server-side development, Express, APIs, and async patterns",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Angular Framework",
+    "url": "https://www.shl.com/solutions/products/product-catalog/angular-framework/",
+    "description": "Angular framework assessment with TypeScript, RxJS, and architecture",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": ".NET Development",
+    "url": "https://www.shl.com/solutions/products/product-catalog/net-development/",
+    "description": "C# and .NET framework including ASP.NET, Entity Framework, and LINQ",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Data Structures & Algorithms",
+    "url": "https://www.shl.com/solutions/products/product-catalog/data-structures-and-algorithms/",
+    "description": "Fundamental and advanced data structures and algorithmic problem solving",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "System Design",
+    "url": "https://www.shl.com/solutions/products/product-catalog/system-design/",
+    "description": "Scalable system architecture, distributed systems, and design patterns",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 90
+  },
+  {
+    "name": "DevOps Practices",
+    "url": "https://www.shl.com/solutions/products/product-catalog/devops-practices/",
+    "description": "CI/CD, containerization, orchestration, and infrastructure as code",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Cloud Computing - AWS",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cloud-computing---aws/",
+    "description": "AWS services, architecture, security, and best practices",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Cloud Computing - Azure",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cloud-computing---azure/",
+    "description": "Microsoft Azure services, solutions, and cloud architecture",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Cybersecurity Fundamentals",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cybersecurity-fundamentals/",
+    "description": "Security principles, threat analysis, encryption, and secure coding",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Network Security",
+    "url": "https://www.shl.com/solutions/products/product-catalog/network-security/",
+    "description": "Network protocols, firewalls, intrusion detection, and security assessment",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Machine Learning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/machine-learning/",
+    "description": "ML algorithms, model training, evaluation, and practical applications",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 70
+  },
+  {
+    "name": "Data Science",
+    "url": "https://www.shl.com/solutions/products/product-catalog/data-science/",
+    "description": "Statistical analysis, data processing, visualization, and insights",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 65
+  },
+  {
+    "name": "Artificial Intelligence",
+    "url": "https://www.shl.com/solutions/products/product-catalog/artificial-intelligence/",
+    "description": "AI concepts, neural networks, deep learning, and applications",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 75
+  },
+  {
+    "name": "Big Data Technologies",
+    "url": "https://www.shl.com/solutions/products/product-catalog/big-data-technologies/",
+    "description": "Hadoop, Spark, data pipelines, and distributed processing",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Mobile Development - iOS",
+    "url": "https://www.shl.com/solutions/products/product-catalog/mobile-development---ios/",
+    "description": "Swift, iOS frameworks, UI design, and app architecture",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Mobile Development - Android",
+    "url": "https://www.shl.com/solutions/products/product-catalog/mobile-development---android/",
+    "description": "Kotlin/Java, Android SDK, architecture components, and best practices",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Web Development Full Stack",
+    "url": "https://www.shl.com/solutions/products/product-catalog/web-development-full-stack/",
+    "description": "End-to-end web development including frontend, backend, and databases",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 70
+  },
+  {
+    "name": "API Development & Integration",
+    "url": "https://www.shl.com/solutions/products/product-catalog/api-development-and-integration/",
+    "description": "RESTful APIs, GraphQL, authentication, and integration patterns",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Microservices Architecture",
+    "url": "https://www.shl.com/solutions/products/product-catalog/microservices-architecture/",
+    "description": "Microservices design, communication patterns, and distributed systems",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Docker & Kubernetes",
+    "url": "https://www.shl.com/solutions/products/product-catalog/docker-and-kubernetes/",
+    "description": "Containerization, orchestration, deployment, and management",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Git Version Control",
+    "url": "https://www.shl.com/solutions/products/product-catalog/git-version-control/",
+    "description": "Git workflows, branching strategies, collaboration, and best practices",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Agile & Scrum",
+    "url": "https://www.shl.com/solutions/products/product-catalog/agile-and-scrum/",
+    "description": "Agile methodologies, Scrum framework, and team collaboration",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Software Testing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/software-testing/",
+    "description": "Testing strategies, automation, TDD, BDD, and quality assurance",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Database Administration",
+    "url": "https://www.shl.com/solutions/products/product-catalog/database-administration/",
+    "description": "Database management, optimization, backup, recovery, and security",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "HTML5 & CSS3",
+    "url": "https://www.shl.com/solutions/products/product-catalog/html5-and-css3/",
+    "description": "Modern web markup and styling including responsive design",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 35
+  },
+  {
+    "name": "TypeScript",
+    "url": "https://www.shl.com/solutions/products/product-catalog/typescript/",
+    "description": "TypeScript language features, types, interfaces, and advanced patterns",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "PHP Development",
+    "url": "https://www.shl.com/solutions/products/product-catalog/php-development/",
+    "description": "PHP programming, frameworks, and web application development",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Ruby Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/ruby-programming/",
+    "description": "Ruby language and Rails framework assessment",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Go Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/go-programming/",
+    "description": "Go language fundamentals, concurrency, and system programming",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Rust Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/rust-programming/",
+    "description": "Rust systems programming, ownership, safety, and performance",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Scala Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/scala-programming/",
+    "description": "Scala functional and object-oriented programming",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "R Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/r-programming/",
+    "description": "R for statistical computing and data analysis",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "MATLAB",
+    "url": "https://www.shl.com/solutions/products/product-catalog/matlab/",
+    "description": "MATLAB programming for numerical computing and analysis",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "SAP Systems",
+    "url": "https://www.shl.com/solutions/products/product-catalog/sap-systems/",
+    "description": "SAP ERP system knowledge and configuration",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Salesforce Administration",
+    "url": "https://www.shl.com/solutions/products/product-catalog/salesforce-administration/",
+    "description": "Salesforce CRM administration and customization",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Tableau",
+    "url": "https://www.shl.com/solutions/products/product-catalog/tableau/",
+    "description": "Data visualization and dashboard creation with Tableau",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Power BI",
+    "url": "https://www.shl.com/solutions/products/product-catalog/power-bi/",
+    "description": "Microsoft Power BI for business intelligence and analytics",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Excel Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/excel-advanced/",
+    "description": "Advanced Excel including macros, VBA, and complex formulas",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Microsoft Word",
+    "url": "https://www.shl.com/solutions/products/product-catalog/microsoft-word/",
+    "description": "Advanced Word processing and document management",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Microsoft PowerPoint",
+    "url": "https://www.shl.com/solutions/products/product-catalog/microsoft-powerpoint/",
+    "description": "Presentation design and advanced PowerPoint features",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Project Management Software",
+    "url": "https://www.shl.com/solutions/products/product-catalog/project-management-software/",
+    "description": "MS Project, Jira, and project management tools",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 35
+  },
+  {
+    "name": "AutoCAD",
+    "url": "https://www.shl.com/solutions/products/product-catalog/autocad/",
+    "description": "CAD software for technical drawing and design",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "SolidWorks",
+    "url": "https://www.shl.com/solutions/products/product-catalog/solidworks/",
+    "description": "3D CAD modeling and engineering design",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Adobe Photoshop",
+    "url": "https://www.shl.com/solutions/products/product-catalog/adobe-photoshop/",
+    "description": "Image editing and graphic design with Photoshop",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Adobe Illustrator",
+    "url": "https://www.shl.com/solutions/products/product-catalog/adobe-illustrator/",
+    "description": "Vector graphics and illustration design",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Video Editing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/video-editing/",
+    "description": "Video editing software and post-production skills",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "UI/UX Design",
+    "url": "https://www.shl.com/solutions/products/product-catalog/ui-ux-design/",
+    "description": "User interface and experience design principles",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Graphic Design",
+    "url": "https://www.shl.com/solutions/products/product-catalog/graphic-design/",
+    "description": "Visual design principles, typography, and composition",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Digital Marketing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/digital-marketing/",
+    "description": "Online marketing strategies, SEO, SEM, and analytics",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Content Marketing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/content-marketing/",
+    "description": "Content strategy, creation, and distribution",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Social Media Marketing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/social-media-marketing/",
+    "description": "Social media strategy and platform management",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 35
+  },
+  {
+    "name": "Email Marketing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/email-marketing/",
+    "description": "Email campaign design, automation, and optimization",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 35
+  },
+  {
+    "name": "Google Analytics",
+    "url": "https://www.shl.com/solutions/products/product-catalog/google-analytics/",
+    "description": "Web analytics, tracking, and data interpretation",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "SEO Optimization",
+    "url": "https://www.shl.com/solutions/products/product-catalog/seo-optimization/",
+    "description": "Search engine optimization techniques and strategies",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Financial Analysis",
+    "url": "https://www.shl.com/solutions/products/product-catalog/financial-analysis/",
+    "description": "Financial statement analysis, ratios, and valuation",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Accounting Principles",
+    "url": "https://www.shl.com/solutions/products/product-catalog/accounting-principles/",
+    "description": "GAAP, financial accounting, and reporting",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Managerial Accounting",
+    "url": "https://www.shl.com/solutions/products/product-catalog/managerial-accounting/",
+    "description": "Cost accounting, budgeting, and decision-making",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Investment Analysis",
+    "url": "https://www.shl.com/solutions/products/product-catalog/investment-analysis/",
+    "description": "Portfolio management, securities analysis, and valuation",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Risk Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/risk-management/",
+    "description": "Financial risk assessment and mitigation strategies",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Corporate Finance",
+    "url": "https://www.shl.com/solutions/products/product-catalog/corporate-finance/",
+    "description": "Capital structure, financing decisions, and valuation",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Financial Modeling",
+    "url": "https://www.shl.com/solutions/products/product-catalog/financial-modeling/",
+    "description": "Building financial models and forecasting",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Taxation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/taxation/",
+    "description": "Tax principles, planning, and compliance",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Auditing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/auditing/",
+    "description": "Audit procedures, standards, and internal controls",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Business Strategy",
+    "url": "https://www.shl.com/solutions/products/product-catalog/business-strategy/",
+    "description": "Strategic planning, analysis, and execution",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Market Research",
+    "url": "https://www.shl.com/solutions/products/product-catalog/market-research/",
+    "description": "Research methodologies, analysis, and insights",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Supply Chain Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/supply-chain-management/",
+    "description": "Logistics, inventory, and supply chain optimization",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Operations Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/operations-management/",
+    "description": "Process optimization, quality control, and efficiency",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Procurement",
+    "url": "https://www.shl.com/solutions/products/product-catalog/procurement/",
+    "description": "Purchasing, vendor management, and negotiation",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Business Law",
+    "url": "https://www.shl.com/solutions/products/product-catalog/business-law/",
+    "description": "Contract law, business regulations, and compliance",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Economics",
+    "url": "https://www.shl.com/solutions/products/product-catalog/economics/",
+    "description": "Micro and macroeconomics principles and analysis",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Statistics",
+    "url": "https://www.shl.com/solutions/products/product-catalog/statistics/",
+    "description": "Statistical methods, hypothesis testing, and inference",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Business Analytics",
+    "url": "https://www.shl.com/solutions/products/product-catalog/business-analytics/",
+    "description": "Data-driven decision making and analytical methods",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Econometrics",
+    "url": "https://www.shl.com/solutions/products/product-catalog/econometrics/",
+    "description": "Statistical analysis of economic data",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Quantitative Methods",
+    "url": "https://www.shl.com/solutions/products/product-catalog/quantitative-methods/",
+    "description": "Mathematical and statistical modeling",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Mechanical Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/mechanical-engineering/",
+    "description": "Mechanics, thermodynamics, and mechanical design",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Electrical Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/electrical-engineering/",
+    "description": "Circuit analysis, electronics, and electrical systems",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Civil Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/civil-engineering/",
+    "description": "Structural analysis, construction, and infrastructure",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Chemical Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/chemical-engineering/",
+    "description": "Process engineering, thermodynamics, and reactions",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Industrial Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/industrial-engineering/",
+    "description": "Process optimization, systems engineering, and efficiency",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Aerospace Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/aerospace-engineering/",
+    "description": "Aerodynamics, structures, and aerospace systems",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 65
+  },
+  {
+    "name": "Biomedical Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/biomedical-engineering/",
+    "description": "Medical devices, biomechanics, and healthcare systems",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Environmental Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/environmental-engineering/",
+    "description": "Environmental systems, pollution control, and sustainability",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Materials Science",
+    "url": "https://www.shl.com/solutions/products/product-catalog/materials-science/",
+    "description": "Material properties, testing, and selection",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Quality Engineering",
+    "url": "https://www.shl.com/solutions/products/product-catalog/quality-engineering/",
+    "description": "Quality systems, Six Sigma, and process improvement",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Biology",
+    "url": "https://www.shl.com/solutions/products/product-catalog/biology/",
+    "description": "Cellular biology, genetics, and biological systems",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Chemistry",
+    "url": "https://www.shl.com/solutions/products/product-catalog/chemistry/",
+    "description": "Organic, inorganic, and analytical chemistry",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Physics",
+    "url": "https://www.shl.com/solutions/products/product-catalog/physics/",
+    "description": "Classical and modern physics principles",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Biochemistry",
+    "url": "https://www.shl.com/solutions/products/product-catalog/biochemistry/",
+    "description": "Molecular biology and biochemical processes",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Microbiology",
+    "url": "https://www.shl.com/solutions/products/product-catalog/microbiology/",
+    "description": "Microorganisms, pathogens, and laboratory techniques",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Pharmacology",
+    "url": "https://www.shl.com/solutions/products/product-catalog/pharmacology/",
+    "description": "Drug mechanisms, interactions, and therapeutics",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Biotechnology",
+    "url": "https://www.shl.com/solutions/products/product-catalog/biotechnology/",
+    "description": "Genetic engineering and biotechnological applications",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Laboratory Techniques",
+    "url": "https://www.shl.com/solutions/products/product-catalog/laboratory-techniques/",
+    "description": "Scientific methods, equipment, and procedures",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Research Methodology",
+    "url": "https://www.shl.com/solutions/products/product-catalog/research-methodology/",
+    "description": "Experimental design, analysis, and scientific writing",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Clinical Research",
+    "url": "https://www.shl.com/solutions/products/product-catalog/clinical-research/",
+    "description": "Clinical trial design, ethics, and regulatory compliance",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Medical Terminology",
+    "url": "https://www.shl.com/solutions/products/product-catalog/medical-terminology/",
+    "description": "Healthcare vocabulary and anatomical terms",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Nursing Knowledge",
+    "url": "https://www.shl.com/solutions/products/product-catalog/nursing-knowledge/",
+    "description": "Patient care, pharmacology, and clinical procedures",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 60
+  },
+  {
+    "name": "Healthcare Administration",
+    "url": "https://www.shl.com/solutions/products/product-catalog/healthcare-administration/",
+    "description": "Healthcare systems, policy, and management",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Medical Coding",
+    "url": "https://www.shl.com/solutions/products/product-catalog/medical-coding/",
+    "description": "ICD, CPT coding, and medical billing",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Pharmacy",
+    "url": "https://www.shl.com/solutions/products/product-catalog/pharmacy/",
+    "description": "Pharmaceutical knowledge and dispensing practices",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Radiology",
+    "url": "https://www.shl.com/solutions/products/product-catalog/radiology/",
+    "description": "Imaging techniques and interpretation",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Physical Therapy",
+    "url": "https://www.shl.com/solutions/products/product-catalog/physical-therapy/",
+    "description": "Rehabilitation techniques and therapeutic exercises",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Nutrition",
+    "url": "https://www.shl.com/solutions/products/product-catalog/nutrition/",
+    "description": "Dietary principles, assessment, and counseling",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Legal Research",
+    "url": "https://www.shl.com/solutions/products/product-catalog/legal-research/",
+    "description": "Case law research, legal databases, and analysis",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Contract Law",
+    "url": "https://www.shl.com/solutions/products/product-catalog/contract-law/",
+    "description": "Contract formation, interpretation, and enforcement",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Criminal Law",
+    "url": "https://www.shl.com/solutions/products/product-catalog/criminal-law/",
+    "description": "Criminal procedure, evidence, and substantive law",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Corporate Law",
+    "url": "https://www.shl.com/solutions/products/product-catalog/corporate-law/",
+    "description": "Business entities, governance, and transactions",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 55
+  },
+  {
+    "name": "Intellectual Property",
+    "url": "https://www.shl.com/solutions/products/product-catalog/intellectual-property/",
+    "description": "Patents, trademarks, copyrights, and IP law",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Employment Law",
+    "url": "https://www.shl.com/solutions/products/product-catalog/employment-law/",
+    "description": "Labor laws, discrimination, and workplace regulations",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 50
+  },
+  {
+    "name": "Legal Writing",
+    "url": "https://www.shl.com/solutions/products/product-catalog/legal-writing/",
+    "description": "Legal documents, briefs, and professional writing",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "English Proficiency",
+    "url": "https://www.shl.com/solutions/products/product-catalog/english-proficiency/",
+    "description": "Grammar, vocabulary, and written communication",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Spanish Language",
+    "url": "https://www.shl.com/solutions/products/product-catalog/spanish-language/",
+    "description": "Spanish grammar, vocabulary, and comprehension",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "French Language",
+    "url": "https://www.shl.com/solutions/products/product-catalog/french-language/",
+    "description": "French grammar, vocabulary, and comprehension",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "German Language",
+    "url": "https://www.shl.com/solutions/products/product-catalog/german-language/",
+    "description": "German grammar, vocabulary, and comprehension",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 40
+  },
+  {
+    "name": "Mandarin Chinese",
+    "url": "https://www.shl.com/solutions/products/product-catalog/mandarin-chinese/",
+    "description": "Chinese language proficiency and comprehension",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Japanese Language",
+    "url": "https://www.shl.com/solutions/products/product-catalog/japanese-language/",
+    "description": "Japanese grammar and language proficiency",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Arabic Language",
+    "url": "https://www.shl.com/solutions/products/product-catalog/arabic-language/",
+    "description": "Arabic language proficiency and comprehension",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 45
+  },
+  {
+    "name": "Retail Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/retail-management/",
+    "description": "Store operations, merchandising, and sales management",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Restaurant Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/restaurant-management/",
+    "description": "Food service operations and hospitality",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Banking Operations",
+    "url": "https://www.shl.com/solutions/products/product-catalog/banking-operations/",
+    "description": "Banking procedures, products, and regulations",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Insurance Knowledge",
+    "url": "https://www.shl.com/solutions/products/product-catalog/insurance-knowledge/",
+    "description": "Insurance principles, products, and underwriting",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Real Estate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/real-estate/",
+    "description": "Property transactions, law, and market knowledge",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Construction Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/construction-management/",
+    "description": "Project management in construction industry",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Manufacturing Processes",
+    "url": "https://www.shl.com/solutions/products/product-catalog/manufacturing-processes/",
+    "description": "Production systems and quality control",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Logistics & Transportation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/logistics-and-transportation/",
+    "description": "Transportation management and logistics",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Hospitality Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/hospitality-management/",
+    "description": "Hotel operations and guest services",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Event Planning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/event-planning/",
+    "description": "Event coordination, planning, and execution",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Travel & Tourism",
+    "url": "https://www.shl.com/solutions/products/product-catalog/travel-and-tourism/",
+    "description": "Tourism industry knowledge and customer service",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Agriculture",
+    "url": "https://www.shl.com/solutions/products/product-catalog/agriculture/",
+    "description": "Farming practices, agronomy, and agricultural science",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Veterinary Knowledge",
+    "url": "https://www.shl.com/solutions/products/product-catalog/veterinary-knowledge/",
+    "description": "Animal care and veterinary medicine",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Education & Teaching",
+    "url": "https://www.shl.com/solutions/products/product-catalog/education-and-teaching/",
+    "description": "Pedagogical methods and instructional design",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Library Science",
+    "url": "https://www.shl.com/solutions/products/product-catalog/library-science/",
+    "description": "Information management and library operations",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Social Work",
+    "url": "https://www.shl.com/solutions/products/product-catalog/social-work/",
+    "description": "Counseling, case management, and social services",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Public Administration",
+    "url": "https://www.shl.com/solutions/products/product-catalog/public-administration/",
+    "description": "Government operations and public policy",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Nonprofit Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/nonprofit-management/",
+    "description": "Nonprofit operations and fundraising",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Sports Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/sports-management/",
+    "description": "Sports business and athletic administration",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Entertainment Industry",
+    "url": "https://www.shl.com/solutions/products/product-catalog/entertainment-industry/",
+    "description": "Media, entertainment business, and production",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Workplace Safety",
+    "url": "https://www.shl.com/solutions/products/product-catalog/workplace-safety/",
+    "description": "OSHA standards and safety procedures",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Environmental Compliance",
+    "url": "https://www.shl.com/solutions/products/product-catalog/environmental-compliance/",
+    "description": "Environmental regulations and sustainability",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Food Safety",
+    "url": "https://www.shl.com/solutions/products/product-catalog/food-safety/",
+    "description": "Food handling, sanitation, and safety standards",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Healthcare Compliance",
+    "url": "https://www.shl.com/solutions/products/product-catalog/healthcare-compliance/",
+    "description": "HIPAA and healthcare regulations",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Data Privacy",
+    "url": "https://www.shl.com/solutions/products/product-catalog/data-privacy/",
+    "description": "GDPR, data protection, and privacy laws",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Information Security",
+    "url": "https://www.shl.com/solutions/products/product-catalog/information-security/",
+    "description": "Security policies, procedures, and compliance",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Ethics & Compliance",
+    "url": "https://www.shl.com/solutions/products/product-catalog/ethics-and-compliance/",
+    "description": "Corporate ethics and regulatory compliance",
+    "test_type": "Knowledge & Skills (K)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Leadership",
+    "url": "https://www.shl.com/solutions/products/product-catalog/leadership/",
+    "description": "Leadership style, decision-making, and team influence",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Teamwork & Collaboration",
+    "url": "https://www.shl.com/solutions/products/product-catalog/teamwork-and-collaboration/",
+    "description": "Team dynamics, cooperation, and interpersonal effectiveness",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Communication Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/communication-skills/",
+    "description": "Verbal and written communication effectiveness",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Emotional Intelligence",
+    "url": "https://www.shl.com/solutions/products/product-catalog/emotional-intelligence/",
+    "description": "Self-awareness, empathy, and relationship management",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Adaptability",
+    "url": "https://www.shl.com/solutions/products/product-catalog/adaptability/",
+    "description": "Flexibility, resilience, and change management",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Problem Solving",
+    "url": "https://www.shl.com/solutions/products/product-catalog/problem-solving/",
+    "description": "Analytical thinking and creative problem resolution",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Critical Thinking",
+    "url": "https://www.shl.com/solutions/products/product-catalog/critical-thinking/",
+    "description": "Logical reasoning, analysis, and judgment",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Decision Making",
+    "url": "https://www.shl.com/solutions/products/product-catalog/decision-making/",
+    "description": "Decision quality, risk assessment, and judgment",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Conflict Resolution",
+    "url": "https://www.shl.com/solutions/products/product-catalog/conflict-resolution/",
+    "description": "Managing disagreements and finding solutions",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Interpersonal Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/interpersonal-skills/",
+    "description": "Social awareness and relationship building",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Customer Service Orientation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/customer-service-orientation/",
+    "description": "Customer focus and service excellence",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Sales Aptitude",
+    "url": "https://www.shl.com/solutions/products/product-catalog/sales-aptitude/",
+    "description": "Sales skills, persuasion, and customer engagement",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Attention to Detail",
+    "url": "https://www.shl.com/solutions/products/product-catalog/attention-to-detail/",
+    "description": "Accuracy, precision, and thoroughness",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Time Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/time-management/",
+    "description": "Prioritization, planning, and efficiency",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Organizational Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/organizational-skills/",
+    "description": "Planning, coordination, and resource management",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Work Ethic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/work-ethic/",
+    "description": "Dependability, responsibility, and commitment",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Integrity",
+    "url": "https://www.shl.com/solutions/products/product-catalog/integrity/",
+    "description": "Honesty, ethics, and trustworthiness",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Initiative",
+    "url": "https://www.shl.com/solutions/products/product-catalog/initiative/",
+    "description": "Proactivity, self-motivation, and drive",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Creativity",
+    "url": "https://www.shl.com/solutions/products/product-catalog/creativity/",
+    "description": "Innovation, original thinking, and idea generation",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Stress Tolerance",
+    "url": "https://www.shl.com/solutions/products/product-catalog/stress-tolerance/",
+    "description": "Managing pressure and maintaining performance",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Negotiation Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/negotiation-skills/",
+    "description": "Influencing, bargaining, and reaching agreements",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Presentation Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/presentation-skills/",
+    "description": "Public speaking and professional presentation",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Analytical Thinking",
+    "url": "https://www.shl.com/solutions/products/product-catalog/analytical-thinking/",
+    "description": "Data analysis, logical reasoning, and insights",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Strategic Thinking",
+    "url": "https://www.shl.com/solutions/products/product-catalog/strategic-thinking/",
+    "description": "Long-term planning and vision",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Cultural Awareness",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cultural-awareness/",
+    "description": "Diversity appreciation and cross-cultural competence",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Coaching & Mentoring",
+    "url": "https://www.shl.com/solutions/products/product-catalog/coaching-and-mentoring/",
+    "description": "Developing others and providing guidance",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Delegation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/delegation/",
+    "description": "Task assignment and empowerment",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Risk Taking",
+    "url": "https://www.shl.com/solutions/products/product-catalog/risk-taking/",
+    "description": "Calculated risk-taking and innovation",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Persuasion",
+    "url": "https://www.shl.com/solutions/products/product-catalog/persuasion/",
+    "description": "Influencing and convincing others",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Assertiveness",
+    "url": "https://www.shl.com/solutions/products/product-catalog/assertiveness/",
+    "description": "Confident communication and boundary setting",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Empathy",
+    "url": "https://www.shl.com/solutions/products/product-catalog/empathy/",
+    "description": "Understanding and responding to others' feelings",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Listening Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/listening-skills/",
+    "description": "Active listening and comprehension",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Relationship Building",
+    "url": "https://www.shl.com/solutions/products/product-catalog/relationship-building/",
+    "description": "Networking and connection development",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Trust Building",
+    "url": "https://www.shl.com/solutions/products/product-catalog/trust-building/",
+    "description": "Establishing credibility and reliability",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Motivating Others",
+    "url": "https://www.shl.com/solutions/products/product-catalog/motivating-others/",
+    "description": "Inspiring and energizing team members",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Change Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/change-management/",
+    "description": "Leading and adapting to organizational change",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Innovation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/innovation/",
+    "description": "Generating and implementing new ideas",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Business Acumen",
+    "url": "https://www.shl.com/solutions/products/product-catalog/business-acumen/",
+    "description": "Understanding business dynamics and strategy",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Customer Relationship Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/customer-relationship-management/",
+    "description": "Building and maintaining client relationships",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Stakeholder Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/stakeholder-management/",
+    "description": "Managing expectations and relationships",
+    "test_type": "Personality & Behavior (P)",
+    "adaptive_support": "No",
+    "remote_support": "Yes",
+    "duration": 30
+  },
+  {
+    "name": "Numerical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/numerical-reasoning/",
+    "description": "Mathematical problem solving and data interpretation",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Verbal Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verbal-reasoning/",
+    "description": "Language comprehension and logical arguments",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Logical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/logical-reasoning/",
+    "description": "Pattern recognition and logical deduction",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Abstract Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/abstract-reasoning/",
+    "description": "Non-verbal problem solving and pattern analysis",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Spatial Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/spatial-reasoning/",
+    "description": "Visual-spatial problem solving and mental rotation",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Mechanical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/mechanical-reasoning/",
+    "description": "Understanding mechanical principles and physics",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Inductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/inductive-reasoning/",
+    "description": "Pattern identification and rule discovery",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Deductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/deductive-reasoning/",
+    "description": "Applying rules and logical conclusions",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Working Memory",
+    "url": "https://www.shl.com/solutions/products/product-catalog/working-memory/",
+    "description": "Information retention and mental manipulation",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Processing Speed",
+    "url": "https://www.shl.com/solutions/products/product-catalog/processing-speed/",
+    "description": "Quick thinking and efficient task completion",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Comprehension",
+    "url": "https://www.shl.com/solutions/products/product-catalog/comprehension/",
+    "description": "Understanding complex information and instructions",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  },
+  {
+    "name": "Problem Solving Speed",
+    "url": "https://www.shl.com/solutions/products/product-catalog/problem-solving-speed/",
+    "description": "Rapid problem resolution and efficiency",
+    "test_type": "Cognitive Ability (A)",
+    "adaptive_support": "Yes",
+    "remote_support": "Yes",
+    "duration": 25
+  }
+]

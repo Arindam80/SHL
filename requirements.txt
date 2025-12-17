@@ -1,0 +1,33 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+python-multipart==0.0.6
+
+# Web scraping
+beautifulsoup4==4.12.3
+selenium==4.17.2
+requests==2.31.0
+lxml==5.1.0
+
+# Data processing
+pandas==2.2.0
+numpy==1.26.3
+
+# ML and embeddings
+sentence-transformers==2.3.1
+faiss-cpu==1.9.0
+torch>=2.2.0
+
+# LLM (optional - system works without it, just no LLM re-ranking)
+openai==1.10.0
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# CORS for frontend
+fastapi-cors==0.0.6
+
+# Testing
+pytest==7.4.3

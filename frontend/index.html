@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHL Assessment Recommendation System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .input-section {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 120px;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        button {
+            flex: 1;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+            font-size: 1.2em;
+            display: none;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .results {
+            margin-top: 40px;
+            display: none;
+        }
+
+        .results h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .assessment-card {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .assessment-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .assessment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+
+        .assessment-name {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #333;
+            flex: 1;
+        }
+
+        .assessment-number {
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-right: 15px;
+        }
+
+        .assessment-description {
+            color: #555;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .assessment-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .detail-badge {
+            background: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            border: 1px solid #e0e0e0;
+        }
+
+        .detail-badge strong {
+            color: #667eea;
+        }
+
+        .assessment-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .assessment-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            color: #c33;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .api-status {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .api-status.online {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .api-status.offline {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .assessment-header {
+                flex-direction: column;
+            }
+
+            .assessment-details {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 SHL Assessment Recommender</h1>
+        <p class="subtitle">Intelligent AI-powered assessment recommendations for your hiring needs</p>
+
+        <div id="apiStatus" class="api-status" style="display: none;"></div>
+
+        <div class="input-section">
+            <label for="queryInput">Enter your hiring query, job description, or job URL:</label>
+            <textarea 
+                id="queryInput" 
+                placeholder="Example: Need a Java developer with strong problem-solving skills and good communication abilities"
+            ></textarea>
+            
+            <div class="button-group">
+                <button id="recommendBtn" onclick="getRecommendations()">
+                    Get Recommendations
+                </button>
+                <button onclick="clearResults()">
+                    Clear
+                </button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Analyzing your query and finding the best assessments...</p>
+        </div>
+
+        <div id="error" class="error"></div>
+
+        <div id="results" class="results">
+            <h2>📋 Recommended Assessments</h2>
+            <div id="assessmentsList"></div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration - Backend now serves frontend on same port
+        const API_BASE_URL = window.location.hostname === 'localhost' 
+            ? 'http://localhost:5000'
+            : window.location.origin;
+
+        // Check API health on load
+        window.addEventListener('load', checkApiHealth);
+
+        async function checkApiHealth() {
+            const statusDiv = document.getElementById('apiStatus');
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/health`);
+                const data = await response.json();
+                
+                if (data.status === 'healthy') {
+                    statusDiv.textContent = '✓ API Online';
+                    statusDiv.className = 'api-status online';
+                } else {
+                    throw new Error('API not healthy');
+                }
+            } catch (error) {
+                statusDiv.textContent = '✗ API Offline - Please start the backend server';
+                statusDiv.className = 'api-status offline';
+            }
+            
+            statusDiv.style.display = 'block';
+        }
+
+        async function getRecommendations() {
+            const query = document.getElementById('queryInput').value.trim();
+            
+            if (!query) {
+                showError('Please enter a query');
+                return;
+            }
+
+            // Show loading, hide results and errors
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('recommendBtn').disabled = true;
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/recommend`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status}`);
+                }
+
+                const data = await response.json();
+                displayResults(data.recommended_assessments);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                showError('Failed to get recommendations. Please ensure the API server is running.');
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('recommendBtn').disabled = false;
+            }
+        }
+
+        function displayResults(assessments) {
+            const resultsDiv = document.getElementById('results');
+            const assessmentsList = document.getElementById('assessmentsList');
+            
+            if (!assessments || assessments.length === 0) {
+                showError('No recommendations found');
+                return;
+            }
+
+            // Clear previous results
+            assessmentsList.innerHTML = '';
+
+            // Create cards for each assessment
+            assessments.forEach((assessment, index) => {
+                const card = document.createElement('div');
+                card.className = 'assessment-card';
+                
+                const testTypes = Array.isArray(assessment.test_type) 
+                    ? assessment.test_type.join(', ') 
+                    : assessment.test_type;
+                
+                card.innerHTML = `
+                    <div class="assessment-header">
+                        <span class="assessment-number">${index + 1}</span>
+                        <div class="assessment-name">${assessment.name}</div>
+                    </div>
+                    <div class="assessment-description">${assessment.description}</div>
+                    <div class="assessment-details">
+                        <div class="detail-badge">
+                            <strong>Type:</strong> ${testTypes}
+                        </div>
+                        <div class="detail-badge">
+                            <strong>Duration:</strong> ${assessment.duration} minutes
+                        </div>
+                        <div class="detail-badge">
+                            <strong>Adaptive:</strong> ${assessment.adaptive_support}
+                        </div>
+                        <div class="detail-badge">
+                            <strong>Remote:</strong> ${assessment.remote_support}
+                        </div>
+                    </div>
+                    <a href="${assessment.url}" target="_blank" class="assessment-link">
+                        View Details →
+                    </a>
+                `;
+                
+                assessmentsList.appendChild(card);
+            });
+
+            resultsDiv.style.display = 'block';
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function clearResults() {
+            document.getElementById('queryInput').value = '';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        // Allow Enter key to submit (with Shift+Enter for new line)
+        document.getElementById('queryInput').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                getRecommendations();
+            }
+        });
+    </script>
+</body>
+</html>
