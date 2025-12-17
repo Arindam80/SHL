@@ -73,32 +73,49 @@ async def startup_event():
     """Load models and indexes on startup."""
     global embedding_manager, recommendation_engine
     
-    print("Loading embedding manager and FAISS index...")
+    try:
+        print("Loading embedding manager and FAISS index...")
+        
+        # Use specified model from environment
+        model_name = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
+        embedding_manager = EmbeddingManager(model_name=model_name)
+        
+        # Try multiple possible paths (for local and deployed environments)
+        possible_paths = [
+            ("../data/embeddings/faiss.index", "../data/embeddings/metadata.pkl"),
+            ("data/embeddings/faiss.index", "data/embeddings/metadata.pkl"),
+            ("./data/embeddings/faiss.index", "./data/embeddings/metadata.pkl"),
+        ]
+        
+        index_loaded = False
+        for index_path, metadata_path in possible_paths:
+            if os.path.exists(index_path):
+                print(f"Found index at: {index_path}")
+                embedding_manager.load_index(index_path=index_path, metadata_path=metadata_path)
+                print("✓ Loaded FAISS index successfully")
+                index_loaded = True
+                break
+        
+        if not index_loaded:
+            print("⚠️ FAISS index not found. API will start but /recommend will be unavailable.")
+            embedding_manager = None
+            recommendation_engine = None
+            return
+        
+        # Initialize recommendation engine with LLM disabled by default (saves memory)
+        use_llm = os.getenv("USE_LLM_RERANKING", "false").lower() == "true"
+        recommendation_engine = RecommendationEngine(embedding_manager, use_llm=use_llm)
+        
+        if use_llm:
+            print("✓ Recommendation engine initialized with LLM re-ranking")
+        else:
+            print("✓ Recommendation engine initialized (no LLM re-ranking)")
     
-    # Use specified model from environment
-    model_name = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
-    embedding_manager = EmbeddingManager(model_name=model_name)
-    
-    # Check if index exists (adjust path since we're in src directory)
-    index_path = "../data/embeddings/faiss.index"
-    metadata_path = "../data/embeddings/metadata.pkl"
-    if os.path.exists(index_path):
-        embedding_manager.load_index(index_path=index_path, metadata_path=metadata_path)
-        print("✓ Loaded FAISS index successfully")
-    else:
-        print("⚠️ FAISS index not found. API will start but /recommend will be unavailable.")
+    except Exception as e:
+        print(f"⚠️ Error during startup: {e}")
+        print("API will start but /recommend may be unavailable.")
         embedding_manager = None
         recommendation_engine = None
-
-    
-    # Initialize recommendation engine with LLM disabled by default (saves memory)
-    use_llm = os.getenv("USE_LLM_RERANKING", "false").lower() == "true"
-    recommendation_engine = RecommendationEngine(embedding_manager, use_llm=use_llm)
-    
-    if use_llm:
-        print("✓ Recommendation engine initialized with LLM re-ranking")
-    else:
-        print("✓ Recommendation engine initialized (no LLM re-ranking)")
 
 
 @app.get("/health", response_model=HealthResponse)
